@@ -1,0 +1,90 @@
+{
+  "config": {
+    "serial": "C3FAAA-a296E0-aCe539",
+    "dosesNumber": 1,
+    "groupsNumber": 2,
+    "dosesType": "double",
+    "model": "eu",
+    "type": "Excepteur"
+  },
+  "phases": [
+    {
+      "name":"uno",
+      "title": "fase 1",
+      "description": "Descrizione fase 1",
+      "operations": [
+        {
+          "id": 69,
+          "title": "fase 1 operazione 1",
+          "mode": "MANUAL",
+          "iterations": 1
+        },
+        {
+          "id": 48,
+          "title": "fase 1 operazione 2",
+          "mode": "BACKGROUND",
+          "iterations": 2
+        }, {
+          "id": 10,
+          "title": "fase 1 operazione 3",
+          "mode": "BACKGROUND",
+          "iterations": 2
+        }
+      ]
+    },
+    {
+      "name":"due",
+      "title": "fase 2",
+      "description": "Descrizione fase 2",
+      "operations": [
+        {
+          "id": 49,
+          "title": "fase 2 operazione 1",
+          "mode": "AUTO",
+          "iterations": 17
+        },
+        {
+          "id": 60,
+          "title": "fase 2 operazione 2",
+          "mode": "AUTO",
+          "iterations": 19
+
+        },
+        {
+          "id": 58,
+          "title": "fase 2 operazione 3",
+          "mode": "BACKGROUND",
+          "iterations": 11
+        }
+      ]
+    },
+    {
+      "name":"tre",
+      "title": "fase 3",
+      "description": "Descrizione fase 3",
+      "operations": [
+        {
+          "id": 73,
+          "title": "fase 3 operazione 1",
+          "mode": "MANUAL",
+          "iterations": 0
+
+        },
+        {
+          "id": 61,
+          "title": "fase 3 operazione 2",
+          "mode": "AUTO",
+          "iterations": 19
+
+        },
+        {
+          "id": 88,
+          "title": "fase 3 operazione 3",
+          "mode": "BACKGROUND",
+          "iterations": 2
+
+        }
+      ]
+    }
+  ]
+}
